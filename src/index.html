@@ -7,8 +7,34 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="font-montserrat">
-    <h1 class="text-3xl font-bold text-center bg-red-500 p-4">
-      Welcome to the Jujutsu Kaisen
-    </h1>
+    <!--Navbar-->
+    <nav class="relative container p-6 mx-auto">
+      <!--Flex Container-->
+      <div class="flex items-center justify-between">
+        <!--Logo-->
+        <div class="pt-2">
+          <img src="/images/Jujutsu.png" alt="" class="h-15" />
+        </div>
+        <!--Menu Items-->
+        <div class="hidden md:flex space-x-12">
+          <a href="#home" class="text-black hover:text-red-500">Home</a>
+          <a href="#characters" class="text-black hover:text-red-500"
+            >Characters</a
+          >
+          <a href="#techniques" class="text-black hover:text-red-500"
+            >Techniques</a
+          >
+          <a href="#episodes" class="text-black hover:text-red-500">Vessels</a>
+          <a href="#about" class="text-black hover:text-red-500">About</a>
+        </div>
+        <!--Button-->
+        <a
+          href=""
+          class="hidden md:block p-3 px-6 pt-2 text-white bg-red-400 rounded-full baseline"
+        >
+          Episodes
+        </a>
+      </div>
+    </nav>
   </body>
 </html>
